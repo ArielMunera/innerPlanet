@@ -1,5 +1,5 @@
 .mainContainer{
-    background-image: url("assets/images/spaceBackground.jpg");
+    background-image: url("../../assets/images/spaceBackground.jpg");
     background-size: cover;
     font-family: "Audiowide";
 }

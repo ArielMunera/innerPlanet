@@ -6,19 +6,19 @@ a{
 }
 #facebook{
     display: inline-flex;
-    background-image: url(assets/images/fb-w-icon.png);
+    background-image: url(../../assets/images/fb-w-icon.png);
     width: 48px;
     height: 48px;
     transition: all;
 }
 
 #facebook:hover{
-    background-image: url(assets/images/fb-icon.png);
+    background-image: url(../../assets/images/fb-icon.png);
 }
 
 #twitter{
     display: inline-flex;
-    background-image: url(assets/images/twitter-w-icon.png);
+    background-image: url(../../assets/images/twitter-w-icon.png);
     width: 48px;
     height: 48px;
     z-index: 1000;
@@ -26,12 +26,12 @@ a{
 }
 
 #twitter:hover{
-    background-image: url(assets/images/twitter-icon.png);
+    background-image: url(../../assets/images/twitter-icon.png);
 }
 
 #instagram{
     display: inline-flex;
-    background-image: url(assets/images/instagram-w-icon.png);
+    background-image: url(../../assets/images/instagram-w-icon.png);
     width: 48px;
     height: 48px;
     z-index: 1000;
@@ -39,5 +39,5 @@ a{
 }
 
 #instagram:hover{
-    background-image: url(assets/images/instagram-icon.png);
+    background-image: url(../../assets/images/instagram-icon.png);
 }
