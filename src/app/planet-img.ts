@@ -6,12 +6,12 @@ export class PlanetImg {
 
 export function createFromPlanetInfo( info: PlanetInfo ):PlanetImg{
     const correspondances: PlanetImg[] = [
-        { title: 'INFERNO', url: '/assets/images/hotRockyPlanet.png' },
-        { title: 'HELIOS', url: '/assets/images/hotGazyPlanet.png' },
-        { title: 'VALKYRIE', url: '/assets/images/temperedRockyPlanet.png' },
-        { title: 'CREPITUS', url: '/assets/images/temperedGazyPlanet.png' },
-        { title: 'BOREAS', url: '/assets/images/coldRockyPlanet.png' },
-        { title: 'JÖTUNN', url: '/assets/images/coldGazyPlanet.png' }
+        { title: 'INFERNO', url: 'assets/images/hotRockyPlanet.png' },
+        { title: 'HELIOS', url: 'assets/images/hotGazyPlanet.png' },
+        { title: 'VALKYRIE', url: 'assets/images/temperedRockyPlanet.png' },
+        { title: 'CREPITUS', url: 'assets/images/temperedGazyPlanet.png' },
+        { title: 'BOREAS', url: 'assets/images/coldRockyPlanet.png' },
+        { title: 'JÖTUNN', url: 'assets/images/coldGazyPlanet.png' }
     ];
 
     let id:number = 0;

@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'SpaceAge';
-	src: url('../assets/fonts/spaceAge.ttf') format('truetype');
+	src: url('assets/fonts/spaceAge.ttf') format('truetype');
 }
 
 @font-face {
