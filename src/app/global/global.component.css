@@ -1,7 +1,7 @@
 
 .container-fluid {
     height: 100vh;
-    background-image: url(/assets/images/horizon.png);
+    background-image: url(/assets/images/horizon);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
