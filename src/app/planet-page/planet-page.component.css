@@ -1,0 +1,11 @@
+.mainContainer{
+    background-image: url("../../assets/images/spaceBackground.jpg");
+    background-size: cover;
+    font-family: "Audiowide";
+}
+
+@media (min-width: 769px) {
+    app-exo-description {
+        display: none;
+    }
+}

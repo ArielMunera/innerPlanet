@@ -1,0 +1,21 @@
+<div class="glob" *ngIf="selectedReponse">
+    <div id="textBlock">
+        <div class="questionNb">
+            <h2>{{selectedReponse.name}}</h2>
+        </div>
+        <div class="question d-flex justify-content-center">
+            <h1 class="titre m-0" *ngIf="reponses.length == 0">{{selectedReponse.question}}</h1>
+            <h1 class="question-titre m-0" *ngIf="reponses.length > 0">{{selectedReponse.question}}</h1>
+            <h1 class="finale m-0" *ngIf="reponses.length == 6">{{selectedReponse.question}}</h1>
+        </div>
+    </div>
+    <div id="btnBlock">
+        <div class="div-button row" *ngIf="reponses.length != 6">
+            <button type="button" class="btn col-10 col-sm-8 col-md-5 col-lg-4 col-xl-4" (click)="onSelect(selectedReponse.reponse1, selectedReponse)">{{selectedReponse.reponse1}}</button>
+            <button type="button" class="btn col-10 col-sm-8 col-md-5 col-lg-4 col-xl-4" (click)="onSelect(selectedReponse.reponse2, selectedReponse)" *ngIf="selectedReponse.id > 0">{{selectedReponse.reponse2}}</button>
+        </div>
+        <div class="return-button" *ngIf="selectedReponse.id != 0">
+            <button type="button" class="btn col-5 col-sm-3 col-md-3 col-lg-2 col-xl-2 m-0" (click)="onSelectReturn(selectedReponse)">BACK</button>
+        </div>
+    </div>
+</div>

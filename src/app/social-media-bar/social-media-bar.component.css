@@ -1,0 +1,43 @@
+a{
+    margin: 0 3vh;
+}
+#socialBar{
+    margin-top: 3vh
+}
+#facebook{
+    display: inline-flex;
+    background-image: url(../../assets/images/fb-w-icon.png);
+    width: 48px;
+    height: 48px;
+    transition: all;
+}
+
+#facebook:hover{
+    background-image: url(../../assets/images/fb-icon.png);
+}
+
+#twitter{
+    display: inline-flex;
+    background-image: url(../../assets/images/twitter-w-icon.png);
+    width: 48px;
+    height: 48px;
+    z-index: 1000;
+    transition: all;
+}
+
+#twitter:hover{
+    background-image: url(../../assets/images/twitter-icon.png);
+}
+
+#instagram{
+    display: inline-flex;
+    background-image: url(../../assets/images/instagram-w-icon.png);
+    width: 48px;
+    height: 48px;
+    z-index: 1000;
+    transition: all;
+}
+
+#instagram:hover{
+    background-image: url(../../assets/images/instagram-icon.png);
+}

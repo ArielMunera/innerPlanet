@@ -1,0 +1,14 @@
+
+.container-fluid {
+    height: 100vh;
+    background-image: url(/src/assets/images/horizon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #0b0432;
+    color: white;
+}
+
+.row {
+    height: 100vh;
+}

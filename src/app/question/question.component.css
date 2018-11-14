@@ -1,0 +1,143 @@
+/*****************Container global*****************/
+
+.glob {
+    text-align: center;
+    margin: 0 2vh;
+}
+
+#textBlock {
+    height: 50vh;
+}
+
+#btnBlock {
+    height: 50vh;
+}
+
+/*****************Div n°question et question*****************/
+
+.question {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+/*****************Phrase page d'accueil*****************/
+
+.titre {
+    font-family: "SpaceAge";
+    font-size: 3.3rem;
+}
+
+/*****************Numéro de la question*****************/
+
+h2 {
+    padding: 3vh;
+    font-family:"SpaceAge"
+}
+
+/*****************Boutons*****************/
+
+.div-button {
+    margin-top: 10vh;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.btn{
+    font-family: "SpaceAge";
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: 2px solid #d0aa5d;
+    box-shadow: 0px 0px 10px #d0aa5d;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.5) ;
+    color: #000;
+    border: 2px solid #79E09C;
+    box-shadow: 0px 0px 10px #79E09C;
+}
+
+.return-button {
+    margin-top: 6vh;
+}
+
+.return-button button {
+    font-size: 1rem;
+}
+
+/************************ MEDIA QUERIES ************************/
+
+@media screen and (min-width: 1024px) {
+    .titre {
+        font-size: 3.5rem;
+    }
+
+    #btnBlock {
+        padding-top: 7vh;
+    }
+    
+    .btn {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .titre {
+        font-size: 3.3rem;
+    }
+
+    #btnBlock {
+        padding-top: 7vh;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .titre {
+        font-size: 3rem;
+    }
+    
+    .btn {
+        font-size: 1rem;
+        margin-bottom: 2vh;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .titre {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h2 {
+        font-size: 1rem;
+    }
+
+    .titre {
+        font-size: 1.5rem;
+    }
+
+    .question-titre {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1.1rem;
+    }
+}

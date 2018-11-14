@@ -1,0 +1,120 @@
+#planetTitle{
+    height: 14vh;
+    text-align: center;
+    vertical-align: middle;
+    margin: 3vh 0 0 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    font-family: "SpaceAge";
+}
+
+.returnLink a{
+    margin: 0 1.5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #d0aa5d;
+    border-radius: 15%;
+    box-shadow: 0px 0px 10px #d0aa5d;
+}
+
+.returnLink a:hover{
+    border: 2px solid #79E09C;
+    box-shadow: 0px 0px 10px #79E09C;
+}
+
+#planet{
+    height: 83vh;
+}
+
+#planetImg{
+    height: 93%;
+}
+
+img{
+    display: block;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.bubbleInfo{
+    cursor: help;
+}
+
+/* Glowing effect and hidden text*/
+
+@-webkit-keyframes neon {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #d0aa5d, 0 0 70px #d0aa5d, 0 0 80px #d0aa5d, 0 0 100px #d0aa5d, 0 0 150px #d0aa5d;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #d0aa5d, 0 0 35px #d0aa5d, 0 0 40px #d0aa5d, 0 0 50px #d0aa5d, 0 0 75px #d0aa5d;
+    }
+  }
+
+@-moz-keyframes neon {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #d0aa5d, 0 0 70px #d0aa5d, 0 0 80px #d0aa5d, 0 0 100px #d0aa5d, 0 0 150px #d0aa5d;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #d0aa5d, 0 0 35px #d0aa5d, 0 0 40px #d0aa5d, 0 0 50px #d0aa5d, 0 0 75px #d0aa5d;
+    }
+}
+
+@keyframes neon {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #d0aa5d, 0 0 70px #d0aa5d, 0 0 80px #d0aa5d, 0 0 100px #d0aa5d, 0 0 150px #d0aa5d;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #d0aa5d, 0 0 35px #d0aa5d, 0 0 40px #d0aa5d, 0 0 50px #d0aa5d, 0 0 75px #d0aa5d;
+    }
+}
+
+.pulse a {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.pulse {
+    float: right;
+    font-size: 2em;
+    width: 5px;
+    height: 5px;
+}
+  
+.pulse a {
+    cursor: help;
+    color: #fff;
+    -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon 1.5s ease-in-out infinite alternate;
+    animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+.pulse a:hover {
+    color: #79E09C;
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+}
+
+p{
+    opacity: 0;
+    padding: 4%;
+    color: #d0aa5d;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
+}
+
+.hiddenText .pulse:hover + p{
+    opacity: 1;
+}
+
+/* Responsivity MediaQueries*/
+
+@media (max-width: 768px) {
+    .hiddenText{
+        display: none;
+    }
+}
