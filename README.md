@@ -1,6 +1,6 @@
 # InnerPlanet
 
-Second projet réalisé dans le cadre de la Wild Code School. Celui-ci a été réalisé en environ 5 semaines avec une équipe de 3 personnes.
+Second projet réalisé dans le cadre de la Wild Code School. Le but était de créer un site en utilisant l'une des API de la NASA. Celui-ci a été réalisé en environ 5 semaines avec une équipe de 3 personnes.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
