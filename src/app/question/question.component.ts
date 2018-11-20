@@ -18,6 +18,7 @@ export class QuestionComponent implements OnInit {
   private router: Router;
 
   public reponses: string[] = [];
+  private message: string = 'loading please wait';
 
   public answer_service: AnswersService;
 
